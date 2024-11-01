@@ -12,3 +12,12 @@ heart rate between 65% and 85% of your heart’s maximum rate.
 
 
 
+age = int(input('Please enter your age: '))
+
+maximun_heart_rate = 220 - age
+
+min_rate = maximun_heart_rate * 0.65
+
+max_rate = maximun_heart_rate * 0.85
+
+print(f'When you excercise to strengthen your heart, you should keep your heart rate between {min_rate:.0f} and {max_rate:.0f} beats per minute.')
